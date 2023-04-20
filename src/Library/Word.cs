@@ -30,7 +30,7 @@ namespace WordsPhrases
         {
             get
             {
-                return this.text;
+                return this.text.Trim(); //Quita los espacios anteriores y posteriores a la palabra//
             }
 
             set
